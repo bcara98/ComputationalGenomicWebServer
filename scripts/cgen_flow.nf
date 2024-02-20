@@ -5,7 +5,7 @@ if (!params.job) {
 }
 
 if (!params.loc) {
-    exit 1, "Error: missing required parameter '--job'"
+    exit 1, "Error: missing required parameter '--loc'"
 }
 
 process assembly {
