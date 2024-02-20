@@ -5,7 +5,7 @@ if (!params.job) {
 }
 
 if (!params.loc) {
-    params.loc = '/home/projects/team2/app'
+    exit 1, "Error: missing required parameter '--job'"
 }
 
 process assembly {
